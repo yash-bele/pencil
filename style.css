@@ -403,17 +403,18 @@ button:hover {
     .slide {
         position: absolute;
         top: 690px;
+        margin-left: -5px;
         flex-direction: column;
         align-items: flex-start;
     }
 
     .slide p {
-        margin-left: 5.5px;
+        margin-left: 5px;
         margin-bottom: 7px;
     }
 
     .swiper {
         margin-bottom: 40px;
-        width: 325px;
+        width: 330px;
     }
 }
