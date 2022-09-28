@@ -340,7 +340,7 @@ button:hover {
 
     #main {
         flex-direction: column;
-        align-items: start;
+        align-items: center;
         height: auto;
         margin-top: 30px;
     }
@@ -396,13 +396,14 @@ button:hover {
     }
     
     .right img {
-        margin-top: 25px;
+        margin-top: 30px;
         width: 300px;
     }
 
     .slide {
         position: absolute;
-        top: 670px;
+        top: 700px;
+        margin-left: -2px;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -413,7 +414,7 @@ button:hover {
     }
 
     .swiper {
-        margin-bottom: 30px;
-        width: 330px;
+        margin-bottom: 40px;
+        width: 325px;
     }
 }
