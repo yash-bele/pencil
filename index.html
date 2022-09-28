@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <title>Pencil</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <!-- NAVBAR -->
+    <nav id="nav">
+        <div class="nav-logo">
+            <img src="./assets/logo_black.svg" alt="logo_black">
+        </div>
+        <div class="nav-list">
+            <ul class="ul1">
+                <li class="li1">
+                    <a class="a1" href="#">PUBLISH</a>
+                    <ul class="ul2">
+                        <li><a href="#">PUBLISH YOUR BOOK</a></li>
+                        <li><a href="#">ROYALTY CALCULATOR</a></li>
+                        <li><a href="#">PUBLISHING SERVICES</a></li>
+                    </ul>
+                </li>
+                <li class="li1">
+                    <a class="a1" href="#">READ</a>
+                    <ul class="ul2">
+                        <li><a href="#">ABOUT THE READER APP</a></li>
+                        <li><a href="#">SHOP FOR BOOKS</a></li>
+                        <li><a href="#">PENCIL INSIGHTS SUBSCRIPTION</a></li>
+                    </ul>
+                </li>
+                <li class="li1">
+                    <a class="a1" href="#">MASTERCLASS</a>
+                    <ul class="ul2">
+                        <li><a href="#">VIDEO COURSES</a></li>
+                        <li><a href="#">DISCOVER</a></li>
+                    </ul>
+                </li>
+                <li class="li1">
+                    <a class="a1" href="#">CONNECT</a>
+                </li>
+                <li class="li1">
+                    <a class="a1" href="#">CONTESTS</a>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-buttons">
+            <button>LOGIN</button>
+            <button>GET STARTED FOR FREE</button>
+        </div>
+        <div class="nav-menu">
+            <img src="./assets/menu_bar.svg" alt="menu_bar">
+        </div>
+    </nav>
+
+    <!-- === MAIN === -->
+    <!-- === MAIN === -->
+    <main id="main">
+        <section class="left">
+            <div class="text">
+                <h1>Publishing your book <br> has never been easier</h1>
+                <p>Everything you need, 100% free.</p>
+            </div>
+            <div class="features">
+                <div class="feature">
+                    <img src="./assets/feature-image-1.svg" alt="feature-image-1">
+                    <p>No Hidden Costs</p>
+                </div>
+                <div class="feature">
+                    <img src="./assets/feature-image-2.svg" alt="feature-image-2">
+                    <p>Sell Worldwide</p>
+                </div>
+                <div class="feature">
+                    <img src="./assets/feature-image-3.svg" alt="feature-image-3">
+                    <p>Distribute in eBook and Paperback</p>
+                </div>
+            </div>
+            <div class="main-button">
+                <button>Get Started for Free</button>
+            </div>
+            <div class="slide">
+                <p>Sell At</p>
+                <div class="swiper mySwiper companies">
+                    <div class="swiper-wrapper companies-wrapper">
+                        <div class="swiper-slide companies-slide"><img src="./assets/Amazon.svg" alt="Amazon"></div>
+                        <div class="swiper-slide companies-slide"><img src="./assets/B&N.svg" alt="B&N"></div>
+                        <div class="swiper-slide companies-slide"><img src="./assets/DangDang.svg" alt="DangDang"></div>
+                        <div class="swiper-slide companies-slide"><img src="./assets/Flipkart.svg" alt="Flipkart"></div>
+                        <div class="swiper-slide companies-slide"><img src="./assets/GBooks.svg" alt="GBooks"></div>
+                        <div class="swiper-slide companies-slide"><img src="./assets/iBooks.svg" alt="iBooks"></div>
+                        <div class="swiper-slide companies-slide"><img src="./assets/Kobo.svg" alt="Kobo"></div>
+                        <div class="swiper-slide companies-slide"><img src="./assets/Pencil.svg" alt="Pencil"></div>
+                        <div class="swiper-slide companies-slide"><img src="./assets/Scribd.svg" alt="Scribd"></div>
+                        <div class="swiper-slide companies-slide"><img src="./assets/Storytel.svg" alt="Storytel"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="right">
+            <img src="./assets/Book_Animation.gif" alt="Book_Animation">
+        </section>
+    </main>
+
+    <!-- === CDN (SWIPER-SCRIPT) === -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- SCRIPT (FOR SWIPER) -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 6,
+            loop: true,
+            autoplay: {
+                delay: 500,
+            },
+            // breakpoints: {
+            //     640: {
+            //         slidesPerView: 2,
+            //     },
+            //     1024: {
+            //         slidesPerView: 3,
+            //     },
+            // },
+        });
+    </script>
+</body>
+
+</html>
