@@ -323,11 +323,9 @@ button:hover {
 /* hidden menu res (start) */
 
 .ul2-res {
-    background-color: white;
+    background-color: whitesmoke;
     list-style: none;
     width: max-content;
-    top: 50px;
-    font-size: small;
     border-radius: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     height: 0px;
@@ -342,7 +340,7 @@ button:hover {
 .ul2-res a {
     display: block;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-radius: 5px;
     color: gray;
     font-size: 13px;
