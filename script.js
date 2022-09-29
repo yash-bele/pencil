@@ -31,6 +31,5 @@ dd_links.forEach((i, j) => {
             ul2_res[j].style.height = "0px";
             ul1_res.style.height = String(296 - 25) + "px";
         }
-        console.log(String(296 + 90) + "px");
     });
 });
